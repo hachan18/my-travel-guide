@@ -1,0 +1,126 @@
+/* html と body の余白をリセット */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+/* ヘッダーセクション */
+header {
+  background-image: url('https://user0514.cdnw.net/shared/img/thumb/asakusa-03_TP_V.jpg'); /* 背景画像 */
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ヘッダーのタイトルスタイル */
+header h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+/* 観光地セクション */
+.tourist-spots {
+  padding: 30px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.tourist-spots h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.spots {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.spot {
+  width: 30%;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.spot h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.spot p {
+  font-size: 1rem;
+  color: #555;
+  white-space: pre-line; /* 改行を反映させる */
+}
+
+/* 料金案内セクション */
+.price-info {
+  text-align: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.price-info h2 {
+  font-size: 2rem;
+}
+
+/* お問い合わせフォーム */
+.contact-form {
+  text-align: center;
+  padding: 40px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.contact-form form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+.contact-form input, .contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #0056b3;
+}
